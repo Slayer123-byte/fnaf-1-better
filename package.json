@@ -2,11 +2,10 @@
   "name": "fnaf-1-better",
   "version": "1.0.0",
   "description": "An improved recreation of Five Nights at Freddy's 1 with enhanced mechanics and realistic AI",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
-    "start": "npx http-server -p 8000 -o",
-    "build": "echo 'Build configuration can be added here'",
-    "dev": "npx http-server -p 8000 -c-1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "keywords": [
     "fnaf",
@@ -16,5 +15,8 @@
     "animatronics"
   ],
   "author": "Slayer123-byte",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
 }
